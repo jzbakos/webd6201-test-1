@@ -1,3 +1,3 @@
-# WEBD6201-W2020-Lesson 3
+# WEBD6201-W2020-Test-1
 
-## demo project for Lesson 3
+## Test 1 for WEBD6201 at Durham College.
