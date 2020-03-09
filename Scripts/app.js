@@ -1,7 +1,7 @@
 /*
-    Student Name  :
-    StudentID     :
-    Date Completed:
+    Student Name  : Josh Bakos
+    StudentID     : 100652490       
+    Date Completed: 2020-03-08
 */
 
 "use strict";
@@ -9,7 +9,7 @@
 // mean? -> anonymous self-executing function
 
 let app;
-(function(app){
+(function (app) {
 
     // Declare Function Variables here...
     console.log("%cDeclaring Variables", "color: red;")
@@ -18,8 +18,7 @@ let app;
      * Variable initialization in this function
      *
      */
-    function Start()
-    {
+    function Start() {
 
 
         Main();
@@ -29,8 +28,16 @@ let app;
      * Main Program entry point is here
      *
      */
-    function Main()
-    {
+    function Main() {
+
+        // Change large button text
+        let lrgButton = document.getElementById("largeButton");
+        lrgButton.textContent = "Learn More";
+
+        // Display name and ID in an h3 element
+        let displayInfo = document.createElement("h3");
+        displayInfo.textContent = "Josh Bakos | 100652490";
+        contentArea.insertBefore(h3, lrgButton);
 
     }
 
